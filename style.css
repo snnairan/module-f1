@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter';
+    background: #333333;
+}
+.navbar{
+    margin: 10px 10px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+}
+.left-nav{
+    display: flex;
+    align-item: center;
+}
+.left-nav span{
+    margin: 3px;
+    color: #B1A592;
+    font-size: 15px;
+    padding: 12px 30px;
+    background-color: #323025;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.left-nav div{
+    margin: 3px;
+    border: 1px solid #B1A592;
+    color: #B1A592;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 600px;
+    transition: 0.3s ease-in-out;
+}
+.right-nav{
+    margin: 3px;
+    border: 1px solid #B1A592;
+    color: #B1A592;
+    border-radius: 50px;
+    padding: 12px 3vw;
+    font-size: 15px;
+    font-weight: 600px;
+    transition: 0.3s ease-in-out;
+}
+.left-nav .item1{
+    border: none;
+    padding: 13px 11vw;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 0.8fr 1.1fr;
+    gap: 12px 12px;
+    padding: 15px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: #DFD6C5;
+    border-radius: 30px;
+}
+.sec1 span{
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid #333333;
+    border-radius: 25px;
+    margin: 35px 0px 0px 33px;
+    align-self: start;
+}
+.sec1 h2{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 1000;
+    margin-left: 33px;
+    width: fit-content;
+    align-self: start;
+}
+.sec1>h2::after{
+    content: 'Museums.';
+    text-decoration: underline;
+}
+.sec1 >#img-one{
+    display:block;
+    overflow: hidden;
+    margin:10px 15px 8px 15px;
+    height:600px;
+    border-radius: 25px;
+}
+#img1{
+    width:100%;
+    height:100%;
+    transition: 0.4s ease-in-out;
+}
+.line{
+    background-color: #333333;
+    width: 100%;
+    height: 1px;
+    padding: 0px;
+    margin: none;
+}
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin:0px 15px 8px 15px;
+}
+.bottom > span{
+    color: #333333;
+    font-weight: 300;
+    font-size: 15px;
+}
+.bottom > img{
+    width: 20px;
+}
+.sec2{
+    background: #8E886D;
+    grid-column:2/4;
+    grid-row: 1/2;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    border-radius:30px;
+}
+.sec2-one{
+    display:flex;
+    gap:45px;
+    padding:25px;
+}
+.sec2-two{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.sec2-two >span{
+
+    padding:5px;
+    color: #323025;
+    font-size: 15px;
+    border:1.5px solid #323025;
+    font-weight: 300;
+    border-radius: 25px;
+    align-self: start;
+}
+.sec2-two> h2{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 1000;
+    align-self: start;
+}
+.sec2-two>h2::after {
+    content: 'Bread.';
+    text-decoration: underline;
+}
+.sec2-one > #img-two{
+ 
+    overflow: hidden;
+    width:960px;  
+    height:220px;
+    border-radius: 25px;
+   }
+   #img2{
+    width:100%;
+    height:100%;
+    transition: 0.3s ease-in-out;
+}
+.sec2-two>p{
+    color: #333333;
+    font-weight: 300;
+    font-size: 15px;
+}
+.sec3{
+    background: #916E58;
+    grid-column:2/3;
+    grid-row: 2/3;
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap:20px;
+}
+.sec3-one{
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    gap:29px;
+}
+.sec3-one>#img-three{
+    overflow: hidden;
+    width:100%;
+    height:150px;
+    border-radius:25px;
+}
+#img3{
+    width:100%;
+    height:100%;
+    transition: 0.3s ease-in-out;
+}
+.sec3-one>h1{
+    font-size: 40px;
+    font-weight:700;
+    border-bottom: 0px solid rgba(51, 51, 51, 1);
+    align-self: start;
+    position:relative;
+    color: #333333;
+}
+.sec3-one>p{
+    color: rgba(51, 51, 51, 1);
+    font-weight: 600;
+    font-size: 16px;
+}
+.sec4{
+   
+    background: #B1A48E;
+    grid-column:3/4;
+    grid-row: 2/3;
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap:20px;  
+    padding-top:25px;
+}
+.sec4>.sec4-one{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.sec4-two{
+display:flex;
+flex-direction: column;
+gap:35px;
+}
+.sec4-two>span{
+    padding:5px;
+    color: #333333;
+    font-size: 18px;
+    border:1.5px solid #333333;
+    font-weight: 600;
+    border-radius: 25px;
+    align-self: start;
+    
+}
+.sec4-one-inner> h1{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 1000;
+    align-self: start;
+
+}
+
+.sec4-two>h1::after {
+    content: 'Painting.';
+    text-decoration: underline;
+}
+.sec4-one> #img-four{
+    overflow: hidden;
+    width: 113px; 
+    height: 113px; 
+    border-radius:56px;
+}
+#img4{
+    width:100%; 
+    height:100%;   
+    transition: 0.4s ease-in-out;
+}
+.sec4>p{
+    padding:10px 20px 80px 20px;
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*hover*/
+
+
+ .sec1:hover #img1{
+    transform: scale(1.1);
+ }
+ .sec2:hover #img2{
+    transform: scale(1.1);
+ }
+ .sec3:hover #img3{ 
+    transform: scale(1.1);
+ }
+#h1::after {
+         content: "";
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         width: 0%;
+         border-bottom: 4px solid rgba(51, 51, 51, 1);
+         transition: 0.4s;
+}
+ .sec3:hover #h1::after{
+     width: 100% ;
+ }   
+ 
+ .sec4:hover #img4{  
+     transform: scale(1.1);
+  }
+ .left-nav >div:hover {
+     background-color:white;
+     color:black;
+  }
+  .right-nav:hover{
+     background-color:white;
+     color:black;
+  }
+ 
+  /*responsive*/
+  
+  @media Screen and (max-width: 840px) {   
+ 
+     .item2{
+         display:none;
+     }
+     .sec{
+         grid-template-columns: 49% 49% !important;
+         grid-template-rows:auto !important;
+     }
+ }
+ @media Screen and  (max-width:540px) {   
+    .sec{
+     grid-template-columns: auto Imp !important;
+     grid-template-rows: repeat(4,auto) !important;
+    }
+     .sec2-one{
+         display:flex;
+         flex-direction: column;
+         gap:30px;
+         padding:25px;
+     }
+     .sec2-one > #img-two{
+      overflow: hidden;
+      width:85vw;  
+      height:220px;
+      border-radius: 15px;
+     }
+     #img2{
+         width:100%;
+         height:100%;
+         transition: 0.3s ease-in-out;
+     }
+ }
